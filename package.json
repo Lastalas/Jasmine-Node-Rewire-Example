@@ -1,0 +1,12 @@
+{
+  "name": "jasmine-node-rewire-example",
+  "version": "1.0.0",
+  "description": "Simple test to show the use of Rewire and Jasmine-Node to unit test node modules",
+  "main": "server.js",
+  "repository": "",
+  "author": "David Posin<david.posin.smp@gmail.com>",
+  "dependencies": {
+    "jasmine-node": "~1.0.0",
+    "rewire": "~1.1.3"
+  }
+}
