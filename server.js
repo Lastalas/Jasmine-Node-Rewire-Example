@@ -1,6 +1,8 @@
 var express = require('express'),
     app = express();
     
+    "use strict";
+    
     app.use(express.bodyParser());
     
     app.get('/loadPage', pageLoader);
@@ -9,7 +11,7 @@ var express = require('express'),
         if (req.query.message && req.query.message !== '' ){
             res.end('Found this message: ' + req.query.message);
         } else {
-            res.end('No message found.')
+            res.end('No message found.');
         }
     }
     
